@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="CoarseFineLocation" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/capt"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/capt"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Silentprayer"
+        tools:targetApi="33" >
+        <activity
+            android:name=".autosilent.Jumma.Jumma"
+            android:exported="false" />
+        <activity
+            android:name=".autosilent.Isha.Isha"
+            android:exported="false" />
+        <activity
+            android:name=".autosilent.Magrib.Magrib"
+            android:exported="false" />
+        <activity
+            android:name=".autosilent.Asar.Asar"
+            android:exported="false" />
+        <activity
+            android:name=".autosilent.Zuhar.Zuhar"
+            android:exported="false" />
+        <activity
+            android:name=".autosilent.Fajar.Fajar"
+            android:exported="false" />
+        <activity
+            android:name=".sunanibnemaja.sunanibnvol_five"
+            android:exported="false" />
+        <activity
+            android:name=".sunanibnemaja.sunanibnvol_four"
+            android:exported="false" />
+        <activity
+            android:name=".sunanibnemaja.sunanibnvol_three"
+            android:exported="false" />
+        <activity
+            android:name=".sunanibnemaja.sunanibnvol_two"
+            android:exported="false" />
+        <activity
+            android:name=".sunanibnemaja.sunanibnvol_one"
+            android:exported="false" />
+        <activity
+            android:name=".sunannisae.sunannasaivol_seven"
+            android:exported="false" />
+        <activity
+            android:name=".sunannisae.sunannasaivol_six"
+            android:exported="false" />
+        <activity
+            android:name=".sunannisae.sunannasaivol_five"
+            android:exported="false" />
+        <activity
+            android:name=".sunannisae.sunannasaivol_four"
+            android:exported="false" />
+        <activity
+            android:name=".sunannisae.sunannasaivol_three"
+            android:exported="false" />
+        <activity
+            android:name=".sunannisae.sunannasaivol_two"
+            android:exported="false" />
+        <activity
+            android:name=".sunannisae.sunannasaivol_one"
+            android:exported="false" />
+        <activity
+            android:name=".sunanabudaood.sunanvol_four"
+            android:exported="false" />
+        <activity
+            android:name=".sunanabudaood.sunanvol_three"
+            android:exported="false" />
+        <activity
+            android:name=".sunanabudaood.sunanvol_two"
+            android:exported="false" />
+        <activity
+            android:name=".sunanabudaood.sunanvol_one"
+            android:exported="false" />
+        <activity
+            android:name=".Jamatirmizi.jamavol_two_removed"
+            android:exported="false" />
+        <activity
+            android:name=".Jamatirmizi.jamavol_one_removed"
+            android:exported="false" />
+        <activity
+            android:name=".sahimuslim.Muslim6"
+            android:exported="false" />
+        <activity
+            android:name=".sahimuslim.Muslim5"
+            android:exported="false" />
+        <activity
+            android:name=".sahimuslim.Muslim4"
+            android:exported="false" />
+        <activity
+            android:name=".sahimuslim.Muslim3"
+            android:exported="false" />
+        <activity
+            android:name=".sahimuslim.Muslim2"
+            android:exported="false" />
+        <activity
+            android:name=".sahimuslim.Muslim1"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol8"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol7"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol6"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol5"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol4"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol3"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol2"
+            android:exported="false" />
+        <activity
+            android:name=".sahibukhari.Vol1"
+            android:exported="false" />
+        <activity
+            android:name=".Images.Image6"
+            android:exported="false" />
+        <activity
+            android:name=".Images.Image5"
+            android:exported="false" />
+        <activity
+            android:name=".Images.Image4"
+            android:exported="false" />
+        <activity
+            android:name=".Images.Image3"
+            android:exported="false" />
+        <activity
+            android:name=".Images.Image2"
+            android:exported="false" />
+        <activity
+            android:name=".Images.Image1"
+            android:exported="false" />
+        <activity
+            android:name=".Hadeesfull.hadeessix"
+            android:exported="false" />
+        <activity
+            android:name=".Hadeesfull.hadeesfifth"
+            android:exported="false" />
+        <activity
+            android:name=".Hadeesfull.hadeesfour"
+            android:exported="false" />
+        <activity
+            android:name=".Hadeesfull.hadeesthree"
+            android:exported="false" />
+        <activity
+            android:name=".Hadeesfull.hadeestwo"
+            android:exported="false" />
+        <activity
+            android:name=".Hadeesfull.hadeesone"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para30"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para29"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para28"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para27"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para26"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para25"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para24"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para23"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para22"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para21"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para20"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para19"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para18"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para17"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para16"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para15"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para14"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para13"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para12"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para11"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para10"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para9"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para8"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para7"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para6"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para5"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para4"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para3"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para2"
+            android:exported="false" />
+        <activity
+            android:name=".paras.para1"
+            android:exported="false" />
+        <activity
+            android:name=".kalmas"
+            android:exported="false" />
+        <activity
+            android:name=".allahname"
+            android:exported="false" />
+        <activity
+            android:name=".readquran"
+            android:exported="false" />
+        <activity
+            android:name=".tasbi"
+            android:exported="false" />
+        <activity
+            android:name=".qbladirection"
+            android:exported="false" />
+        <activity
+            android:name=".SeeratNabi"
+            android:exported="false" />
+        <activity
+            android:name=".Hadeesfull.Hadeesshreef"
+            android:exported="false" />
+        <activity
+            android:name=".Azan_Alaram"
+            android:exported="false" />
+        <activity
+            android:name=".autosilent.autosilent"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Define your main activity -->
+
+        <receiver
+            android:name=".autosilent.Fajar.NormalModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Fajar.NormalModeService" />
+
+        <receiver
+            android:name=".autosilent.Fajar.VibrationService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Fajar.VibrationService" /> <!-- Zuhar -->
+        <receiver
+            android:name=".autosilent.Zuhar.ZuharNormalModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Zuhar.ZuharNormalModeService" />
+
+        <receiver
+            android:name=".autosilent.Zuhar.ZuharVibrationService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Zuhar.ZuharVibrationService" /> <!-- Asar -->
+        <receiver
+            android:name=".autosilent.Asar.AsarNormalModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Asar.AsarNormalModeService" />
+
+        <receiver
+            android:name=".autosilent.Asar.AsarVibrateModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Asar.AsarVibrateModeService" /> <!-- Magrib -->
+        <receiver
+            android:name=".autosilent.Magrib.MagribNormalModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Magrib.MagribNormalModeService" />
+
+        <receiver
+            android:name=".autosilent.Magrib.MagribVibrateModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Magrib.MagribVibrateModeService" /> <!-- Isha -->
+        <receiver
+            android:name=".autosilent.Isha.IshaNormalModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Isha.IshaNormalModeService" />
+
+        <receiver
+            android:name=".autosilent.Isha.IshaVibrateModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Isha.IshaVibrateModeService" /> <!-- Jumma -->
+        <receiver
+            android:name=".autosilent.Jumma.JummaNormalModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Jumma.JummaNormalModeService" />
+
+        <receiver
+            android:name=".autosilent.Jumma.JummaVibrateModeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".autosilent.Jumma.JummaVibrateModeService" />
+    </application>
+
+</manifest>
